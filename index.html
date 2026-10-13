@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Python ステップアップ問題集 答案用ノートブック</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1b1b1b;
+    --muted: #5c5c5c;
+    --line: #dcdcdc;
+    --accent: #1a5f9e;
+    --note-bg: #f4f6f8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16181c;
+      --fg: #e8e8e8;
+      --muted: #a8a8a8;
+      --line: #35383d;
+      --accent: #78b4e8;
+      --note-bg: #1e2127;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2.5rem 1rem 4rem;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Helvetica Neue", Arial, "Hiragino Sans", "Noto Sans JP", Meiryo, sans-serif;
+    line-height: 1.9;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  .series { color: var(--muted); font-size: .9rem; margin: 0 0 .3rem; }
+  h1 { font-size: 1.5rem; line-height: 1.5; margin: 0 0 1.6rem; }
+  h2 {
+    font-size: 1.1rem;
+    margin: 2.5rem 0 .8rem;
+    padding-bottom: .4rem;
+    border-bottom: 1px solid var(--line);
+  }
+  ul { padding-left: 1.4rem; }
+  li { margin-bottom: .5rem; }
+  .volumes { list-style: none; padding: 0; margin: 1.2rem 0; }
+  .volumes li {
+    margin-bottom: .8rem;
+    padding: 1rem 1.2rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+  }
+  .volumes a { font-weight: bold; text-decoration: none; }
+  .volumes a:hover { text-decoration: underline; }
+  .volumes .desc { display: block; color: var(--muted); font-size: .92rem; }
+  .note {
+    background: var(--note-bg);
+    border-left: 3px solid var(--line);
+    padding: .9rem 1.1rem;
+    margin: 1.2rem 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .note p { margin: 0 0 .5rem; }
+  .note p:last-child { margin-bottom: 0; }
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: .88rem;
+  }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <p class="series">イーエスファイン合同会社</p>
+  <h1>Python ステップアップ問題集 答案用ノートブック</h1>
+
+  <p>電子書籍『Python ステップアップ問題集』の付属データです。<br>
+  問題ごとに解答欄と検証セルが並んだノートブックを、冊ごとに公開しています。<br>
+  解答を書いて実行するだけで、正誤を確かめられます。</p>
+
+  <div class="note">
+    <p>ノートブックに問題文は入っていません。<br>書籍と一緒にお使いください。</p>
+    <p>書籍には検証コードもすべて載せています。<br>ノートブックを使わなくても、書籍だけで最後まで進められます。</p>
+  </div>
+
+  <h2>冊の一覧</h2>
+
+  <!-- 冊を追加するときは、この ul の中に li を 1 つ足す -->
+  <ul class="volumes">
+    <li>
+      <a href="001/">基礎問題集 1　変数・型・計算・出力</a>
+      <span class="desc">Python ステップアップ問題集 001　全 24 問</span>
+    </li>
+  </ul>
+
+  <h2>必要なもの</h2>
+  <ul>
+    <li>電子書籍『Python ステップアップ問題集』の該当する冊</li>
+    <li>Google アカウント（Google Colab を使うために必要です）</li>
+  </ul>
+
+  <footer>
+    <p>© イーエスファイン合同会社</p>
+    <p><a href="https://esfine.github.io/">イーエスファイン合同会社</a></p>
+  </footer>
+</main>
+</body>
+</html>
