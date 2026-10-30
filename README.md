@@ -37,6 +37,7 @@
 | 冊 | タイトル | 問題数 | 案内ページ |
 |:--|:--|:--|:--|
 | 基礎問題集 1 | 変数・型・計算・出力 | 24 問 | [001/](https://esfine.github.io/python-workbook/001/) |
+| 基礎問題集 2 | 条件分岐 | 28 問 | [002/](https://esfine.github.io/python-workbook/002/) |
 
 ## 必要なもの
 
